@@ -1,0 +1,121 @@
+TypeScript is a programming language heavily built on top of JavaScript. But what makes TypeScript a language users can trust?
+
+Let’s dive deeper into what TypeScript is and what it can do for JavaScript users.
+
+Understanding TypeScript
+TypeScript is a strongly typed, object-oriented, compiled programming language that builds on JavaScript. It is a superset of the JavaScript language, designed to give you better tooling at any scale.
+
+The lead architect behind TypeScript is Anders Hejlsberg, designer of C# at Microsoft. TypeScript is open source, backed by Microsoft, and considered both a language and a set of tools.
+
+TypeScript calls itself “JavaScript with syntax for types.” In short, it is JavaScript with some additional features.
+
+Components of TypeScript
+TypeScript comprises three main components: Language, the TypeScript Compiler, and the TypeScript Language Service.
+
+Language: the syntax, keywords, and type annotations.
+The TypeScript Compiler (tsc): converts the instructions written in TypeScript to its JavaScript equivalent.
+The TypeScript Language Service: an additional layer of editor-like applications, such as statement completion, signature help, code formatting, and colorization, among other things.
+What TypeScript Does
+TypeScript is often considered “JavaScript and more.” More precisely, there are four main goals of TypeScript:
+
+
+Make JavaScript development more efficient
+Introduce optional types to JavaScript
+Help catch mistakes earlier
+Implement planned features of future JavaScript
+The Gaps in JavaScript
+JavaScript is a loosely typed programming language developed by ECMA’s Technical Committee 39. In many ways, JavaScript is a universal language of the web, with multiple vendors supporting different implementations, e.g., Google, Microsoft, Oracle, etc.
+
+To understand TypeScript’s relation to JavaScript, one must remember that JavaScript was originally introduced as the language for the client side. But with the development of Node.js, JavaScript is now also being identified as an emerging server-side technology.
+
+This is where complications begin to arise.
+
+As JavaScript grows, it is getting more complicated, making it difficult for users to keep things tidy as they maintain and reuse the code.
+
+But this isn’t the only roadblock inhibiting JavaScript’s development as a server-side technology.
+
+By neglecting new features like strong type checking, compile-time error checks, and object orientation, JavaScript is preventing itself from becoming a fully-fledged server-side technology — which it must become if it ever succeeds at the enterprise level.
+
+Separately, JavaScript remains a loosely typed language, which can be inhibiting in and of itself. With function parameters and variables offering little to no information, developers are often left fumbling in the dark trying to determine what types of data are being passed where in JavaScript. They either have to waste time looking at the documentation or — in worst cases — simply do their best to guess based on the implementation.
+
+How TypeScript Fills in JavaScript’s Gaps
+As a strongly typed programming language that builds on JavaScript, TypeScript’s mission is to step in and fill these gaps to enable application-scale development better.
+
+Enhanced IDE Support
+As a whole, TypeScript greatly enhances the development experience for JavaScript users.
+
+In many ways, this is largely due to the improved IDE (integrated development environment) support brought by TypeScript, where the TypeScript compiler informs the IDE on rich type information in real-time.
+
+This facilitates several advantages for the user.
+
+For one, it’s easier to catch errors. While coding, compilation errors are identified with a red line directly in the IDE. And when you have questions about what functions a library might offer, you can get inline help, thanks to code completion. This streamlines workflow, as you no longer need to stop and seek help from external, online references.
+
+Together, this enhanced IDE support boosts overall user productivity.
+
+Static Typing and Type Inference
+JavaScript is dynamically typed. In other words, until a variable is instantiated at runtime, JavaScript cannot know what type it is.
+
+But in some scenarios, this may be too late. And if a variable is falsely assumed to be a certain type, this can cause significant bugs.
+
+This is another area where TypeScript adds support for the loosely typed JavaScript.
+
+With TLS (the TypeScript Language Service mentioned above), TypeScript has an optional static typing and type inference system that can infer undeclared variables. Thus, by adding type support to JavaScript, TypeScript can effectively mitigate type errors during compilation to JavaScript.
+
+Compilation
+Again, one of the biggest drawbacks of JavaScript is that it is difficult to find and rectify errors.
+
+This is partly due to the fact that JavaScript is an interpreted language and, thus, must be run to test that it’s valid. And in the case that there is an error, users are often left on a wild goose chase to find the bugs in the code.
+
+TypeScript helps make error checking easier.
+
+As TypeScript compiles the code, it will identify syntax errors and notify users by generating compilation errors. Thus, TypeScript helps users catch bugs at the compile time instead of waiting until runtime.
+
+ECMAScript Features
+While the JavaScript language is standardized through the ECMAScript standards, not all browsers and JavaScript runtimes support all ECMAScript standards.
+
+This is where TypeScript steps in to make the difference, helping users access the future of JavaScript — today. Because with TypeScript, developers can use many of the latest ECMAScript features (e.g., modules, lambda functions, classes, the spreader operator, and destructing) even before web browsers or other environments fully support them.
+
+Moreover, the language allows users to translate ECMAScript features to older ECMAScript targets of their choosing. This gives the ability to safely use new features while always having the assurance to remain backward compatible with older browsers and JavaScript runtimes.
+
+Object Oriented Programming
+Finally, unlike JavaScript, which has yet failed to embrace object-oriented programming, TypeScript supports object-oriented programming concepts in the vein of classes, interfaces, and inheritance.
+
+TypeScript Competitors
+Of course, other languages compile to JavaScript, of which CoffeeScript and Dart are the most popular. However, TypeScript consistently stands out among these competitors.
+
+For example, CoffeeScript is a lightweight language that aims to simplify JavaScript. But what it gains in readability for users, it loses in deep readability for tools, as it lacks the optional static typing afforded by TypeScript.
+
+Dart, meanwhile, while also a typed superset of JavaScript, is more akin to a full replacement for the language.
+
+However, most challenging for these competitors is their interoperability with JavaScript; as Dart and Coffeescript are relatively new languages, extension to JavaScript requires more language-specific execution. TypeScript, on the other hand, is distinct in its superiority in extending to JavaScript.
+
+Why Use TypeScript?
+TypeScript builds on JavaScript to effectively fill in the gaps and give developers better tooling at any scale. Weighed against its competitors, TypeScript is both easier and more efficient.
+
+Ease of Use
+One of the chief advantages of TypeScript is its ease of use. If you are at least a little familiar with JavaScript, it will require very little effort to get started with TypeScript. This is because all TypeScript code is converted into its JavaScript code equivalent for execution.
+
+Conversely, any JavaScript (.js) file can be renamed to a TypeScript (.ts) file for compilation with other TypeScript files.
+
+Portability
+In many ways, TypeScript is JavaScript, i.e., TypeScript code converts to JavaScript to run anywhere JavaScript runs. Consequently, users can have confidence that TypeScript can run on any environment that JavaScript runs on — browsers, devices, and operating systems.
+
+This starkly contrasts with many TypeScript competitors that require a dedicated VM or specific runtime environments for execution.
+
+Robust Developer Tooling Support
+Overall, TypeScript aims to improve developers’ efficiency and productivity by mitigating errors, aiding problem-solving, and delivering better tooling at scale.
+
+TSC is also advantageous for developers because it can run as a background process to support compilation and IDE integration.
+
+How to Get Started with TypeScript
+To get started using TypeScript, the best approach is gradual adoption.
+
+This means incrementally applying types to your JavaScript to improve your codebase and editor support, step by step.
+
+The most common way to use TypeScript is to use tsc:
+
+Write the TypeScript code.
+Then, use tsc to compile the TypeScript code into plain JavaScript code.
+Finally, deploy the JavaScript code to any environment that runs JavaScript.
+If you want to get more into the nuts and bolts of TypeScript, check out this comprehensive TypeScript tutorial
+
